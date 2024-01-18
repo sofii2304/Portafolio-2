@@ -1,26 +1,26 @@
 
 :root {
-  --blue: #007bff;
+  --blue: #b7ff00;
   --indigo: #6610f2;
   --purple: #6f42c1;
-  --pink: #e83e8c;
+  --pink: #dc83ad;
   --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #ffc107;
   --green: #28a745;
-  --teal: #20c997;
+  --teal: #204ac9;
   --cyan: #17a2b8;
   --white: #fff;
-  --gray: #6c757d;
+  --gray: #000000;
   --gray-dark: #343a40;
-  --primary: #0BCEAF;
+  --primary: #ce420b;
   --secondary: #6c757d;
   --success: #28a745;
-  --info: #17a2b8;
+  --info: #b817a3;
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #ffffff;
-  --dark: #343a40;
+  --dark: #000000;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -53,7 +53,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #6c757d;
+  color: #000000;
   text-align: left;
   background-color: #ffffff;
 }
@@ -202,7 +202,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: #000000;
   text-align: left;
   caption-side: bottom;
 }
@@ -358,7 +358,7 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  color: #343a40;
+  color: #000000;
 }
 
 h1, .h1 {
@@ -3866,7 +3866,7 @@ input[type="button"].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #0BCEAF;
+  background-color: #ce7d0b;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3880,7 +3880,7 @@ input[type="button"].btn-block {
 }
 
 .custom-range::-webkit-slider-thumb:active {
-  background-color: #92f9e9;
+  background-color: #d27575;
 }
 
 .custom-range::-webkit-slider-runnable-track {
